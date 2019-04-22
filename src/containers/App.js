@@ -16,10 +16,10 @@ const App = (props) => {
       {/*{code here}*/}
       React.Fragment>
         <NavBar />
-        <Route exact path="/" component={Home} />
         <Route exact path="/actors" component={Actors} />
-        <Route exact path="/movies" component={Movies} />
         <Route exact path="/directors" component={Directors} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/movies" component={Movies} />
       </React.Fragment>
     </Router>
   );
